@@ -1,24 +1,16 @@
-Some additional things may be needed to properly use those codes as it was transfered from personal storage.
-
-Insert the code (valorant.py and valorant_test.py) to the python
-software. Than upload all of the csv files (agent_stats.csv, banned_map_stats.csv
-map_pick_stats.csv, player_stats.csv, public_player_stats.csv, side_pick_stats.csv,
-test_banned.csv, test_masters.csv, test_players1.csv, and test_players2.csv)
+Some additional things may be needed to properly use those codes as it was transfered from personal storage. Some of the functions may be calling the data incorrectly.
 
 The python software will need to be able to
-import plotly, pandas, sklearn.metrics. Which means install
-if necessary those things if necessary.
+import plotly, pandas, sklearn.metrics.
 For theses below:
     import pandas as pd
     import plotly.express as px
     from sklearn.metrics import accuracy_score
 
-
-Now the code should be runnable.
 To remove or use a specific function, go to the main method in valorant.py and
 comment methods out.
 Otherwise, all of the programs will default be on.
-There is a KDA.PNG that is meant for the highest_KDA_players(masters_path) function
+There is a KDA.PNG that shows what the product of the data visualization should look like.
 
 To merge the two datasets, use the function highest_KDA_players()
 
