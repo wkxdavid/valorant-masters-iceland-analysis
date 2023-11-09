@@ -14,3 +14,5 @@ For theses below:
 To merge the two datasets, use the function highest_KDA_players()
 
 To plot the KDA's, use the function test_total_map_picked()
+
+Data is from: https://www.kaggle.com/datasets/jaykumar1607/valorant-masters-2021-player-map-data
