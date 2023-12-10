@@ -1,7 +1,7 @@
 Valorant 2021 Iceland Tournament Analysis
 Machine learning model and visualization to find the top performaning players during a Valorant tournament using Python. Uses an online API to build a comparison model for the algorithim. Uses Panda to filter the data, plotly for the visualization, and sklearn for machine learning. 
 
-
+Features code base testing.
 
 For code use:
 The python software will need to be able to
