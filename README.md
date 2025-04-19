@@ -1,18 +1,20 @@
-Valorant 2021 Iceland Tournament Analysis
-Machine learning model and visualization to find the top performaning players during a Valorant tournament using Python. Uses an online API to build a comparison model for the algorithim. Uses Panda to filter the data, plotly for the visualization, and sklearn for machine learning. 
+# 🎮 Valorant 2021 Iceland Tournament Analysis
 
-Features code base testing.
+This project analyzes player performance from the Valorant Masters 2021: Iceland tournament using machine learning and data visualization in Python. It also serves as a learning repository for exploring Python tools and libraries.
 
-For code use:
-The python software will need to be able to
-import plotly, pandas, sklearn.metrics.
-For theses below:
-- import pandas as pd
-- import plotly.express as px
-- from sklearn.metrics import accuracy_score
+### 🔍 Overview
+- Builds a linear regression model to identify top-performing players.
+- Retrieves and compares tournament data using an online API.
+- Utilizes `pandas` for data processing, `plotly` for visualization, and `sklearn` for evaluation.
 
-To merge the two datasets, use the function highest_KDA_players()
+### 🧪 Features
+- Linear regression analysis with `sklearn.metrics`.
+- KDA (Kill/Death/Assist) breakdowns with interactive charts.
+- Merges and filters datasets to generate actionable insights.
+- Includes tested Python functions for modular analysis.
 
-To plot the KDA's, use the function test_total_map_picked()
-
-Data is from: https://www.kaggle.com/datasets/jaykumar1607/valorant-masters-2021-player-map-data
+### 🛠️ Requirements
+Make sure the following Python libraries are installed:
+```bash
+pip install pandas plotly scikit-learn
+```
