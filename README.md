@@ -18,3 +18,6 @@ Make sure the following Python libraries are installed:
 ```bash
 pip install pandas plotly scikit-learn
 ```
+
+### Data:
+https://www.kaggle.com/datasets/jaykumar1607/valorant-masters-2021-player-map-data
